@@ -35,7 +35,7 @@ const Game = ({
       <p>Você ainda tem {guesses} tentativa(s).</p>
 
       <div className="game__letter-container">
-        <p>Tente adivinha uma letra da palavra:</p>
+        <p>Tente adivinhar uma letra da palavra:</p>
         <form onSubmit={handleSubmit}>
           <input
             ref={letterInputRef}
