@@ -1,0 +1,9 @@
+.game-over__btn-retry {
+  border: 1px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #3ff3f3 0%, #33ff33 100%);
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}

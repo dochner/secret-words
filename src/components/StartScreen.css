@@ -1,0 +1,12 @@
+.start-game__title {
+  font-weight: 800;
+  line-height: 0.8;
+  letter-spacing: -1px;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.start-game__subtitle {
+  font-size: 16px;
+  font-weight: 300;
+}

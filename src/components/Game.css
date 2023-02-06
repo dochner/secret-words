@@ -1,0 +1,156 @@
+.game p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.game h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.game h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.game__points span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3.game__tip {
+  font-weight: 300;
+}
+
+.game__tip span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.game__word-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #ffffffab;
+}
+
+.game__word-container > div + div {
+  margin-left: 0.5rem;
+}
+
+.game__word-letter,
+.game__blank  {
+  background-color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.6;
+  border: 3px solid #1f1f1ffa;
+  border-radius: 4px;
+  height: 50px;
+  width: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game__letter-container p {
+  margin-bottom: 1.2em;
+}
+.game__letter-container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game__letter-container input {
+  height: 50px;
+  width: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.game__letter-container input:hover {
+  border-color: black;
+}
+
+
+.game__letter-container input:focus {
+  outline: 1px solid cyan;
+}
+
+.game__letter-container button {
+  height: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.game__wrong-letters-container {
+  margin-top: 48px;
+  height: 89px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  color: black;
+  background: #ffffffab;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.game__wrong-letters-container p {
+  width: 100%;
+  margin: 0;
+}
+
+.game__wrong-letters-container span {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  max-width: max-content;
+  padding: 0 0.5rem;
+  position: relative;
+}
+
+.game__wrong-letters-container span + span {
+  margin-left: 0.5rem;
+}
+
+
+.game__wrong-letters-container span + span::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 50%;
+  left: -4px;
+  top: 12px;
+  background: rgba(0, 0, 0, 0.40);
+}
+
+.game__btn {
+  cursor: pointer;
+  border: 1px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #3ff3f3 0%, #33ff33 100%);
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4);
+}
