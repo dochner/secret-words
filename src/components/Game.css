@@ -62,7 +62,7 @@ h3.game__tip {
   align-items: center;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 600px) {
   .game__word-letter,
   .game__blank  {
     height: 48px;
