@@ -4,9 +4,9 @@ const StartScreen = ({ startGame }) => {
   return (
     <>
       <h2 className="start-game__title">
-        Secret
+        Palavra
         <br />
-        <span style={{ paddingLeft: "32px", fontSize: "70px" }}>Word</span>
+        <span style={{ paddingLeft: "32px", fontSize: "70px" }}>Secreta</span>
       </h2>
 
       <p className="start-game__subtitle">

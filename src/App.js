@@ -53,7 +53,7 @@ function App() {
     const category = categories[Math.floor(Math.random() * categories.length)];
     const word =
       words[category][Math.floor(Math.random() * words[category].length)];
-    const wordLetters = slugify(word, " ").split("");
+    const wordLetters = word.toLowerCase().split("");
 
     if (guessedWords.includes(word)) {
       return pickRandomWord();
@@ -74,7 +74,6 @@ function App() {
   }, [pickRandomWord]);
 
   const verifyLetter = (letter) => {
-    console.log("Verificando letra: ", letter);
     const normalizedLetter = letter.toLowerCase();
 
     if (

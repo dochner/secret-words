@@ -1,6 +1,6 @@
 {
-  "short_name": "Secret Word",
-  "name": "Secret Word Game - Guess the word",
+  "short_name": "Palavras Secretas",
+  "name": "Palavras Secretas - Adivinhe a palavra",
   "icons": [
     {
       "src":"/android-chrome-192x192.png",
